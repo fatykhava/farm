@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/farm/static/css/main.fdfd0f39.css",
+    "main.js": "/farm/static/js/main.36050a4b.js",
+    "static/js/787.b37c1e65.chunk.js": "/farm/static/js/787.b37c1e65.chunk.js",
+    "static/media/lettuce.jpg": "/farm/static/media/lettuce.f7bc85b331e0448041eb.jpg",
+    "static/media/basil.jpg": "/farm/static/media/basil.0e08755b1af27c7b5bff.jpg",
+    "static/media/intro.jpg": "/farm/static/media/intro.4984f7f86c34c81adadc.jpg",
+    "static/media/about3.jpg": "/farm/static/media/about3.883db2733f04a4aa8a80.jpg",
+    "static/media/potato.png": "/farm/static/media/potato.4f9981e3a75b4044fef5.png",
+    "static/media/about1.jpg": "/farm/static/media/about1.7d051ad32459b7776ce7.jpg",
+    "static/media/about2.jpg": "/farm/static/media/about2.d7be4c0a16299386ea50.jpg",
+    "static/media/gerkules.jpeg": "/farm/static/media/gerkules.52ff39740d4aa21cc62a.jpeg",
+    "static/media/logo.png": "/farm/static/media/logo.b3ad4b920c5594d144ba.png",
+    "static/media/cash.svg": "/farm/static/media/cash.23d8222164835e9bad99a7e0fd4c1864.svg",
+    "static/media/list.svg": "/farm/static/media/list.f88b845094c027d302830d1ddd5c32b8.svg",
+    "static/media/tree.svg": "/farm/static/media/tree.86a069b218e1641ac538c05161cdef58.svg",
+    "static/media/salad.svg": "/farm/static/media/salad.f4de0010ab22de28fda6a302f14e3728.svg",
+    "static/media/shop.svg": "/farm/static/media/shop.a3229081dcfc29558ae5ddf4bbd9648b.svg",
+    "static/media/truck.svg": "/farm/static/media/truck.ca891f92b191a073d1f34c46897a2398.svg",
+    "static/media/stars.svg": "/farm/static/media/stars.e073765299cb4231191f51420f16f079.svg",
+    "index.html": "/farm/index.html",
+    "static/media/burger.svg": "/farm/static/media/burger.72c1d12f0a4d621501a12d88ca7d08c4.svg",
+    "static/media/cross.svg": "/farm/static/media/cross.fd419bbdfd1b5a4b50c7e1d7d14b4db9.svg",
+    "main.fdfd0f39.css.map": "/farm/static/css/main.fdfd0f39.css.map",
+    "main.36050a4b.js.map": "/farm/static/js/main.36050a4b.js.map",
+    "787.b37c1e65.chunk.js.map": "/farm/static/js/787.b37c1e65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdfd0f39.css",
+    "static/js/main.36050a4b.js"
+  ]
+}
