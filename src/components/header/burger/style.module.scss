@@ -1,0 +1,125 @@
+@import './src/styles/colors';
+@import './src/styles/mixins';
+
+.burgerButton {
+	display: none;
+	width: 27px;
+	height: 25px;
+	margin-right: 10px;
+	background: none;
+	border: none;
+
+	& > span {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	& svg {
+		height: 22px;
+	}
+
+	@include for-tablet-only {
+		display: block;
+	}
+}
+
+.crossButton {
+	position: absolute;
+	right: 25px;
+	background: none;
+	border: none;
+}
+
+.menu {
+	position: fixed;
+	top: 0;
+	bottom: -2px;
+	right: -150vw;
+	z-index: -10;
+	display: flex;
+	justify-content: flex-end;
+	width: 100vw;
+	background-color: transparent;
+	backdrop-filter: blur(5px);
+
+	@include for-small-mobile-only {
+		backdrop-filter: blur(40px);
+	}
+
+	&.active {
+		z-index: 1000;
+		background-color: rgba($black, 0.5);
+	}
+
+	& > div.active {
+		right: 0;
+		overflow-y: auto;
+	}
+
+	& > div {
+		position: relative;
+		right: -150vw;
+		width: 100%;
+		height: 100%;
+		max-width: 504px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 30px;
+		padding: 60px 80px 60px;
+		background-color: $burger-bg;
+		backdrop-filter: blur(40px);
+		transition: all 0.3s;
+
+		@include for-mobile-only {
+			padding: 55px 40px 60px;
+		}
+
+		@include for-small-mobile-only {
+			padding: 55px 18px 30px;
+		}
+	}
+
+	& nav {
+		padding-top: 100px;
+	}
+
+	& li {
+		height: auto;
+		margin-bottom: 30px;
+		border: none;
+		list-style-type: none;
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+
+	& a,
+	& h3 {
+		font-weight: 300;
+		font-size: 40px;
+		line-height: 51px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: $white;
+	}
+
+	& a {
+		font-size: 28px;
+		letter-spacing: 1px;
+		text-decoration: none;
+	}
+
+	& h3 {
+		margin-bottom: 24px;
+		font-size: 22px;
+	}
+}
+
+/* stylelint-disable */
+:export {
+	white: $white;
+	blue: $blue;
+}

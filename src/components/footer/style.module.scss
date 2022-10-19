@@ -1,0 +1,58 @@
+@import './src/styles/colors';
+@import './src/styles/mixins';
+@import './src/styles/fonts';
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: $green;
+
+	& > div {
+		display: grid;
+		grid-template-columns: 1.5fr 200px 1fr;
+		gap: 100px;
+		width: 100%;
+		max-width: 1245px;
+		padding: 50px 15px;
+		box-sizing: border-box;
+		color: $white;
+
+		& a {
+			font-size: 20px;
+			color: $white;
+		}
+
+		& p {
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 17px;
+		}
+	}
+
+	& nav li {
+		margin-bottom: 20px;
+	}
+
+	.title {
+		margin-bottom: 32px;
+		font-family: $cormorant-garamond;
+		font-weight: 500;
+		font-size: 32px;
+		line-height: 40px;
+		text-transform: uppercase;
+		color: $white;
+	}
+
+	.contacts {
+		& h2 {
+			margin-bottom: 20px;
+			text-align: left;
+		}
+
+		& p {
+			margin-bottom: 16px;
+		}
+	}
+}

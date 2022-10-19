@@ -1,0 +1,33 @@
+@import './src/styles/colors';
+@import './src/styles/mixins';
+
+.title {
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 32px;
+	color: rgba($black, 0.6);
+
+	@include for-tablet-only {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+
+.subtitle {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.text {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 31px;
+
+	@include for-mobile-only {
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 20px;
+	}
+}

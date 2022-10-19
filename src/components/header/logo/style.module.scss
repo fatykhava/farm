@@ -1,0 +1,22 @@
+@import './src/styles/mixins';
+
+.logo {
+	width: 60px;
+	height: 60px;
+
+	span {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	@include for-tablet-only {
+		width: 42px;
+		height: 42px;
+
+		& svg {
+			width: 42px;
+			height: 42px;
+		}
+	}
+}

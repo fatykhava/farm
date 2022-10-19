@@ -1,0 +1,30 @@
+@import "./src/styles/colors";
+@import "./src/styles/mixins";
+@import "./src/styles/fonts";
+
+.intro {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding-top: 80px;
+  box-sizing: border-box;
+  background: url("../../../assets/intro.jpg") no-repeat center right;
+  background-size: contain;
+}
+
+.titleWrapper {
+  margin-bottom: 100px;
+}
+
+.title {
+  font-family: $cormorant-garamond;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 64px;
+  text-transform: uppercase;
+  color: $green;
+}
+
+.phoneNumber {
+  margin-bottom: 32px;
+}
