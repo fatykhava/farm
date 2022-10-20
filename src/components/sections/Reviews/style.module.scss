@@ -11,7 +11,12 @@
 
     & .header {
       display: flex;
+      flex-wrap: wrap;
       gap: 30px;
+
+      @include for-small-mobile-only {
+        gap: 15px;
+      }
 
       & .name {
         font-size: 24px;
@@ -20,6 +25,10 @@
       & .date {
         font-size: 16px;
         opacity: 0.6;
+
+        @include for-small-mobile-only {
+          margin-bottom: 20px;
+        }
       }
 
       & svg {
@@ -63,6 +72,10 @@
   font-size: 36px;
   line-height: 35px;
   text-transform: uppercase;
+
+  @include for-tablet-only {
+    text-align: center;
+  }
 }
 
 .description {

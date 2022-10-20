@@ -19,4 +19,9 @@ export const NAVIGATION = [
     title: "Контакты",
     url: "#contacts",
   },
+  {
+    id: 5,
+    title: 'Instagram',
+    url: 'https://instagram.com/golubika.solovinaya?igshid=YmMyMTA2M2Y=',
+  }
 ];

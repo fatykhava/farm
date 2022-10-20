@@ -8,8 +8,9 @@
 	color: rgba($black, 0.6);
 
 	@include for-tablet-only {
-		font-size: 16px;
+		font-size: 20px;
 		line-height: 24px;
+		text-align: center;
 	}
 }
 
@@ -26,7 +27,6 @@
 	line-height: 31px;
 
 	@include for-mobile-only {
-		font-weight: 300;
 		font-size: 16px;
 		line-height: 20px;
 	}

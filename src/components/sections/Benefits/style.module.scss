@@ -10,6 +10,10 @@
     background-position-x: -400px;
     background-position-y: -50px;
 
+    @include for-mobile-only {
+      padding-top: 100px;
+    }
+
     & .wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -18,7 +22,28 @@
         border: 2px $green solid;
         border-radius: 32px;
         background-color: rgba($white, 0.5);
-        backdrop-filter: blur(5px)
+        backdrop-filter: blur(5px);
+
+        & > div {
+          @include for-small-mobile-only {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+        }
+
+        @include for-tablet-only {
+          padding: 40px;
+          gap: 40px;
+        }
+
+        @include for-mobile-only {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include for-small-mobile-only {
+          grid-template-columns: 1fr;
+        }
     }
 
   & span {
@@ -44,4 +69,8 @@
   font-size: 16px;
   line-height: 16px;
   color: rgba($black, 0.7);
+
+  @include for-small-mobile-only {
+    text-align: center;
+  }
 }

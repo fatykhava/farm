@@ -9,12 +9,14 @@ const Intro: FC = () => (
     <div className="container">
       <div className={styles.titleWrapper}>
         <Text className={styles.title}>Соловьиная роща</Text>
-        <Text isTitle>Напрямую с фермерского хозяйства к вам на стол</Text>
+        <Text isTitle>Напрямую с фермерского хозяйства к Вам на стол</Text>
       </div>
 
       <Text>Выбирайте натуральные продукты в нашем каталоге или звоните</Text>
       <Text className={styles.phoneNumber}>+ 375 (29) 190-11-39</Text>
-      <Button text="Перезвоните мне" onClick={() => console.log("click")} />
+      <Button onClick={() => console.log("click")}>
+        <a href="tel:+375291901139">Позвонить</a>
+      </Button>
     </div>
   </div>
 );
