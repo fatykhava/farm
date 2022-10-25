@@ -23,9 +23,9 @@ const Footer: FC = () => {
             Адрес: Республика Беларусь, Гомельская область, Речицкий р-н,
             Бабичский с/с, х. Бабич, ул. Сосновая, д.27
           </Text>
-          <Text>Режим работы Пн-Пт с 9:00 - 20:00</Text>
-          <Text>Телефон: + 375 29 190 11 39</Text>
-          <Text>Email: cra.market@yandex.by</Text>
+          <Text>Режим работы Пн-Сб с 9:00 - 20:00</Text>
+          <Text>Телефон: <a href="tel:+375291901139">+ 375 29 190 11 39</a></Text>
+          <Text>Email: <a href="mailto:sl3010372@gmail.com">sl3010372@gmail.com</a></Text>
         </div>
       </div>
     </footer>

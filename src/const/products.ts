@@ -1,5 +1,7 @@
 import potato from '../assets/potato.png';
 import gerkules from '../assets/gerkules.png';
+import blueberry from '../assets/blueberry.png';
+import honey from '../assets/honey.png';
 
 const PRODUCTS = [
     {
@@ -25,6 +27,22 @@ const PRODUCTS = [
         details: 'Расфасовка в мешок 30 кг',
         deliveryInfo: 'Доставка бесплатно',
         icon: gerkules,
+    },
+    {
+        id: 4,
+        title: 'Голубика садовая',
+        price: 'Нет в наличии',
+        details: '',
+        deliveryInfo: '',
+        icon: blueberry,
+    },
+    {
+        id: 5,
+        title: 'Мёд лесной',
+        price: 'Нет в наличии',
+        details: '',
+        deliveryInfo: '',
+        icon: honey,
     },
 ];
 

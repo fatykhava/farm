@@ -8,7 +8,7 @@ const Navigation: FC = () => {
       <ul>
         {NAVIGATION.map((link) => (
           <li key={link.id}>
-            <a href={link.url}>{link.title}</a>
+            <a href={link.url} target={link.target} rel="noreferrer">{link.title}</a>
           </li>
         ))}
       </ul>
