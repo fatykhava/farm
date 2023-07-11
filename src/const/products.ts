@@ -2,30 +2,31 @@ import potato from '../assets/potato.png';
 import gerkules from '../assets/gerkules.png';
 import blueberry from '../assets/blueberry.png';
 import honey from '../assets/honey.png';
+import wax from '../assets/wax.png';
 
 const PRODUCTS = [
     {
         id: 1,
         title: 'Картофель «Королева Анна» (1кг)',
-        price: '0,80 коп',
-        details: 'Расфасовка по сеткам 30-35 кг',
-        deliveryInfo: 'Доставка: +0,10 коп за 1кг',
+        price: 'Нет в наличии',
+        details: '',
+        deliveryInfo: '',
         icon: potato,
     },
     {
         id: 2,
         title: 'Картофель «Вектор» (1кг)',
-        price: '0,80 коп',
-        details: 'Расфасовка по сеткам 30-35 кг',
-        deliveryInfo: 'Доставка: +0,10 коп за 1кг',
+        price: 'Нет в наличии',
+        details: '',
+        deliveryInfo: '',
         icon: potato,
     },
     {
         id: 3,
         title: 'Овёс (мешок)',
-        price: '15 руб',
-        details: 'Расфасовка в мешок 30 кг',
-        deliveryInfo: 'Доставка бесплатно',
+        price: 'Нет в наличии',
+        details: '',
+        deliveryInfo: '',
         icon: gerkules,
     },
     {
@@ -39,10 +40,18 @@ const PRODUCTS = [
     {
         id: 5,
         title: 'Мёд лесной',
-        price: 'Нет в наличии',
-        details: '',
+        price: '10 руб',
+        details: '0,5 л',
         deliveryInfo: '',
         icon: honey,
+    },
+    {
+        id: 6,
+        title: 'Забрусный воск',
+        price: 'Договорная',
+        details: '',
+        deliveryInfo: '',
+        icon: wax,
     },
 ];
 
